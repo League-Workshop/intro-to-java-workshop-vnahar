@@ -9,7 +9,14 @@ public class MyFirstJavaProgram {
 		
 		// START HERE
 	
-		
-		
+	Robot wing=new Robot("batman");
+	wing.setSpeed(100);
+	wing.setPenColor(Color.blue);
+	wing.setPenWidth(5);
+	wing.penDown();
+	for(int i=0;i<4;i++){
+		wing.move(200);
+		wing.turn(90);
+	}
 	}
 }
