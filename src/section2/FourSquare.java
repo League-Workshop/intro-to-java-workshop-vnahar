@@ -28,6 +28,7 @@ public class FourSquare {
 			// 8. Turn the robot 90 degrees to the right
 
 			wing.turn(90);
+			
 		}
 
 	}
